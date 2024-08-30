@@ -1,0 +1,33 @@
+.battery-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* background-color: #f5f4f0; */
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 75px; /* Add some margin to separate from the SolarPanel */
+    margin-left: 300px;
+}
+
+.battery-icon-container {
+    background-color: #f5f4f0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.battery-text {
+    flex-grow: 1;
+}
+
+.battery-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #181711;
+    margin: 0;
+}
+
+.battery-description {
+    font-size: 14px;
+    color: #8a8560;
+    margin: 0;
+}
